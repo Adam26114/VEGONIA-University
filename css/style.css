@@ -11,19 +11,34 @@ body{
     margin:0;
 }
 
+/* Start Header */
+/* Start Intro */
 .headerintros{
     background-color:var(--primary-color);
     color:#fff;
     padding:15px 0;
+    
+    display:none;
+}
 
-    /* display:none; */
+@media (min-width:1200px) {
+    .visiblelgs{
+        display:block;
+    }
 }
 
 .infos{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
+    
     font-size:14px;
     font-weight:bold;
 }
+
+.headericons a{
+    color:#fff;
+    margin:0 10px;
+}
+/* End Header Intro */
+/* End Header */
