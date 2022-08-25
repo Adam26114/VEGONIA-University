@@ -50,6 +50,7 @@ body{
 header{
     height:80vh;
     background:var(--primary-grad-color);
+    position: relative;
 }
 
 /* Start Nav Bar  */
@@ -107,11 +108,53 @@ header{
     
 }
 
-.banner-btns{
+.banner-headers{
+    font-weight:bold;
+    letter-spacing:3px;
+    animation-name:bnanis;
+    animation-duration:2s;
+}
+
+.banner-parahraphs,.banner-btns{
+    animation-name:bnanis;
+    animation-duration:2s;
+    animation-delay:.5s;
+
+    animation-fill-mode:backwards;
+}
+
+
+@keyframes bnanis {
+    from{
+        transform:translateY(100px);
+        opacity:0;
+    }
     
+    to{
+        transform:translateY(0px);
+        opacity:1;
+    }
 }
 
 /* End Banner */
 
+.studentgroups{
+    width:50%;
+
+    position: absolute;
+    left:0;
+    bottom:0;
+
+    z-index:1;
+}
+
+.waves{
+    width:100%;
+    position: absolute;
+    left:0;
+    bottom:0;
+
+    z-index:2;
+}
 
 /* End Header */
