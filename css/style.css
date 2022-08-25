@@ -152,9 +152,37 @@ header{
     width:100%;
     position: absolute;
     left:0;
-    bottom:0;
+    bottom:-5px;
 
     z-index:2;
 }
 
 /* End Header */
+
+/*  Start Student Counter Section */
+
+.counters{
+    width:100%;
+    height:20%;
+
+    font-weight:bold;
+    letter-spacing:3px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.counteritems{
+    float:left;
+    width:25%;
+    text-align:center;
+}
+
+.counteritems .fas{
+    background:var(--primary-grad-color);
+    color:transparent;
+    -webkit-background-clip:text;
+}
+
+/*  End Student Counter Section */
