@@ -2,6 +2,7 @@
 
 :root{
     --primary-color:darkviolet;
+    --secondary-color:darkblue;
     --primary-grad-color:linear-gradient(to left,darkviolet,deepskyblue);
 }
 
@@ -174,9 +175,16 @@ header{
 }
 
 .counteritems{
-    float:left;
     width:25%;
     text-align:center;
+
+    border-right:1px solid rgba(0,0,0,0.4);
+
+    float:left;
+}
+
+.counteritems:last-child{
+    border-right:none;
 }
 
 .counteritems .fas{
@@ -185,4 +193,27 @@ header{
     -webkit-background-clip:text;
 }
 
+.counteritems h5{
+    font-size:15px;
+    font-weight:bold;
+}
 /*  End Student Counter Section */
+
+/* Start About Us Section */
+
+.aboutuss{
+    background-image:linear-gradient(
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ),url('../assets/img/banner/banner4.jpg');
+
+    background-repeat:no-repeat;
+}
+
+.aboutuss ul li{
+    list-style-type:none;
+    background-color:var(--secondary-color);
+    margin:20px 0;
+}
+
+/* End About Us Section */
