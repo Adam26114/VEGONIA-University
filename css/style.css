@@ -291,4 +291,28 @@ nav {
     background-color: blue;
 }
 
-/* End faculty */
+/* End faculty Section */
+
+/* Start Prcng Section */
+.pricingboxes{
+    background-color:#eee;
+    text-align:center;
+}
+
+.pricing-headers{
+    background-color:var(--secondary-color);
+    color:#fff;
+    padding:10px 0;
+}
+
+.prices{
+    font-size:3rem;
+    font-weight:bold;
+    background:url('../assets/img/icon/pricebg.png');
+    background-repeat:no-repeat;
+
+    line-height:160px;
+
+    background-position:center;
+}
+/* End Prcng Section */
