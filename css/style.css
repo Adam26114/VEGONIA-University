@@ -288,7 +288,7 @@ nav {
 
 .socialicons a i:hover {
     color: #000;
-    background-color: blue;
+    background-color:#fff;
 }
 
 /* End faculty Section */
@@ -297,6 +297,12 @@ nav {
 .pricingboxes{
     background-color:#eee;
     text-align:center;
+
+    transition:transform .3s;
+}
+
+.pricingboxes:hover{
+    transform:translateY(-20px);
 }
 
 .pricing-headers{
@@ -315,4 +321,54 @@ nav {
 
     background-position:center;
 }
+
+.price-items li{
+    margin:10px 0;
+}
 /* End Prcng Section */
+
+/* Start Location Area */
+.libcards{
+    perspective:1000px;
+
+    position: relative;
+}
+
+.libcontents{
+    width:0;
+    height:100%;
+    background-color:#444;
+    color:#fff;
+
+    position: absolute;
+    left:0;
+    top:0;
+    
+    transform:rotateY(-90deg);
+    transform-origin:left center;
+
+    transition:all .3s;
+}
+
+.libcards:hover .libcontents{
+    width:70%;
+    transform: rotateY(0deg);
+}
+
+.btn-infos{
+    width:50%;
+    background-color:steelblue;
+    color:#fff;
+    text-align:center;
+    text-decoration:none;
+    
+    position:absolute;
+    left:10px;
+    bottom:10px;
+}
+
+.btn-infos:hover{
+    background-color:var(--secondary-color);
+    color:#fff;
+}
+/* End Location Area */
