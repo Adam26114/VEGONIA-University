@@ -58,7 +58,7 @@ header {
 /* Start Nav Bar  */
 nav {
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menustyles li a {
