@@ -564,5 +564,31 @@ nav {
     color:#eee;
     font-size:13px;
     text-decoration:none;
+    transition:all .3s;
+}
+
+.footerlinks:hover{
+    color:orange;
+    border-bottom:1px solid orange;
+    letter-spacing:1px;
+}
+
+.footersocialicons a{
+    width:30px;
+    height:30px;
+
+    display:inline-block;
+    border:1px solid #fff;
+    border-radius:50%;
+    color:#fff;
+    margin:0 2px;
+
+    text-align:center;
+    line-height:30px;
+
+}
+
+.footersocialicons a:hover{
+    background-color:blue;
 }
 /* End footer */
