@@ -394,3 +394,14 @@ nav {
 }
 
 /* End Feature section */
+
+/* Start Subscribe  Section */
+
+.subscribes{
+    background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.2)) , url('./../assets/img/etc/student1.png');
+    background-repeat:no-repeat;
+    background-position:80%;
+
+}
+
+/* Start Subscribe  Section */
