@@ -404,4 +404,21 @@ nav {
 
 }
 
+@media (max-width:992px) {
+
+    .subscribes{
+        background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.2));
+    
+    }
+    
+}
+
+@media (max-width:1200px) {
+
+    .subscribes{
+        background-position:90%;
+    }
+    
+}
+
 /* Start Subscribe  Section */
