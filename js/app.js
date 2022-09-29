@@ -64,6 +64,43 @@ getcountervalues.forEach(function (getcountervalue) {
 
 // End Student Counter Section
 
+
+
+
+// Start Rating Section 
+
+// start google code for chart 
+google.charts.load('current', { 'packages': ['corechart'] });
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart() {
+
+    var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['Myanmar', 8],
+        ['Thailand', 2],
+        ['Singapore', 4],
+        ['Indonesia', 2],
+        ['SiriLanka', 8]
+    ]);
+
+    var options = {
+        title: 'International Students',
+        // is3D: true
+        // pieHole: true
+        width: 550,
+        height: 400
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+}
+
+// end google code for chart
+
+// End Rating Section
+
 const getyear = document.getElementById('getyear');
   const getfullyear = new Date().getUTCFullYear();
 
