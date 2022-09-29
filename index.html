@@ -17,6 +17,33 @@
 </head>
 <body>
 
+    <!-- Start Login Box -->
+        <button id="openform" class="open-btn"><i class="fas fa-user"></i></button>
+
+        <div id="form-popups" class="form-popups">
+
+            <form class="form-container" action="" method="">
+                <h6>Login Here!!</h6>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email" autocomplete="off" required/>
+                </div>
+                
+                <div class="form-group">
+                    <label for="pasword">Password</label>
+                    <input type="pasword" name="pasword" id="email" class="form-control" placeholder="Enter Password" autocomplete="off" required/>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
+                    <button type="button" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
+                </div>
+            </form>
+
+        </div>
+    <!-- End Login Box -->
+
     <!-- Start Header Section -->
     <header>
         <!-- Start Header Into -->
@@ -580,7 +607,7 @@
 
     <footer class="bg-dark px-5">
 
-        <div class="container-fluid">
+        <div class="container-fluid pt-3">
 
             <div class="row text-light">
 
@@ -648,6 +675,17 @@
                     </ul>
                 </div>
 
+
+            </div>
+
+            <div class="container">
+                <div class="text-light d-flex justify-content-between border-top pt-4">
+                    <p>Copyright &copy; <span id="getyear"></span><a class="text-danger">Pro</a>All right reserved</p>
+
+                    <ul class="list-unstyled">
+                        <li><a href="#"><i class="fas fa-angle-up backtotop-btns"></i></a></li>
+                    </ul>
+                </div>
 
             </div>
 
