@@ -17,8 +17,17 @@
 </head>
 <body>
 
+    <!-- Start Stick Note -->
+        <div class="sticknotes">
+            <a href="#" class="aboutus">About</a>
+            <a href="#" class="pages">Pages</a>
+            <a href="#" class="news">News</a>
+            <a href="#" class="contact">Contact</a>
+        </div>
+    <!-- End Stick Note -->
+
     <!-- Start Login Box -->
-        <button id="openform" class="open-btn"><i class="fas fa-user"></i></button>
+        <button id="open-btn" class="open-btn"><i class="fas fa-user"></i></button>
 
         <div id="form-popups" class="form-popups">
 
@@ -27,17 +36,17 @@
 
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email" autocomplete="off" required/>
+                    <input type="email" name="email" id="email" class="" placeholder="Enter Email" autocomplete="off" required/>
                 </div>
                 
                 <div class="form-group">
-                    <label for="pasword">Password</label>
-                    <input type="pasword" name="pasword" id="email" class="form-control" placeholder="Enter Password" autocomplete="off" required/>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="email" class="" placeholder="Enter Password" autocomplete="off" required/>
                 </div>
 
                 <div class="d-grid">
-                    <button type="submit" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
-                    <button type="button" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
+                    <button type="submit" id="" class="btn btn-info btn-sm rounded-0 mb-2">Login</button>
+                    <button type="button" id="formclose-btn" class="btn btn-danger btn-sm rounded-0 mb-2">Close</button>
                 </div>
             </form>
 
@@ -569,7 +578,7 @@
                         <input type="text" name="regpassword" id="regpassword" class="form-control" placeholder="Password">
                     </div>
 
-                    <div class="form-check">
+                    <div class="form-check form-switch">
                         <input type="checkbox" name="accept" id="accept" class="form-check-input" />
                         <label for="accept">I agree to get push notify</label>
                     </div>
@@ -680,7 +689,7 @@
 
             <div class="container">
                 <div class="text-light d-flex justify-content-between border-top pt-4">
-                    <p>Copyright &copy; <span id="getyear"></span><a class="text-danger">Pro</a>All right reserved</p>
+                    <p>Copyright &copy; <span id="getyear"></span><a class="text-danger"> Pro</a>All right reserved</p>
 
                     <ul class="list-unstyled">
                         <li><a href="#"><i class="fas fa-angle-up backtotop-btns"></i></a></li>

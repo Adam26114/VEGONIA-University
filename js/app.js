@@ -10,6 +10,17 @@ $(document).ready(function () {
 
   // End Navbar
   // End Header
+
+  // Start Login Box
+  $('#open-btn').click(function(){
+    document.getElementById("form-popups").style.display = 'block'
+  })
+
+  $('#formclose-btn').click(function(){
+    document.getElementById("form-popups").style.display = "none"
+  })
+  // End Login Box
+
 });
 
 // End Jquery Area
@@ -52,6 +63,11 @@ getcountervalues.forEach(function (getcountervalue) {
 });
 
 // End Student Counter Section
+
+const getyear = document.getElementById('getyear');
+  const getfullyear = new Date().getUTCFullYear();
+
+  getyear.textContent = getfullyear;
 
 // End Javascript Area
 
